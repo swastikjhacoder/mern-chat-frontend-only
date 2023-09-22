@@ -1,0 +1,17 @@
+import { Button } from "@mui/material";
+import React from "react";
+import {useSelector, useDispatch } from 'react-redux';
+
+function App ()
+{
+  const dispatch = useDispatch();
+  const liceChat = useSelector( ( state ) => { state.liveChat } );
+  console.log(liv)
+  return (
+    <>
+    <Button>Click Me</Button>
+    </>
+  );
+}
+
+export default App;
